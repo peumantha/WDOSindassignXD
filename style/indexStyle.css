@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(130, 193, 214);
+  }
+  
+  #myPage {
+    display: block;
+  }
+  
+  h1 {
+    color:green;
+    font-size: 50px;
+    line-height: 65px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  #mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #mainNav {
+    position:sticky;  /*To keep the navigation remain same even when scrolled down */
+    top: 0; 
+}
+
+#mainNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+
+#mainNav a {
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    min-height: 40px;
+    line-height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;     
+    padding: 4px;
+}
+
+#mainNav li {
+   flex-grow: 1; 
+   width: min-content;
+   border: rgb(17,17,17) solid 2px;
+   padding: 0.1px;  
+}
+
+#mainNav li a.active {
+    background-color: #359b38;      /*To show the active webpage */
+  }
+  
+#mainNav li a:hover:not(.active) {
+    background-color: rgb(71, 71, 71); 
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color:orange;
+    text-align: left;
+  }
+
+  h3 {
+    color:black;
+    font-size: 30px;
+    background-color: burlywood;
+    text-align: left;
+  }
+
+  h4 {
+    color: black;
+    font-size: 30px;
+    background-color: chocolate;
+    text-align: left;
+  }
+
+  #image2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer {
+    position: bottom;
+    font-size: 16px;
+    left: 0;
+    bottom: o;
+    height: 210px;
+    width: 100%;
+    background-color:rgb(65, 62, 62);
+    color: white;
+    text-align: left;
+  }
+
+  

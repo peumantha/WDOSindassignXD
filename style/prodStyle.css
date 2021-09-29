@@ -1,0 +1,165 @@
+*
+body {
+    background-color: rgb(130, 193, 214);
+  }
+  
+  #myPage {
+    display: block;
+    
+  }
+  
+  h1 {
+    color:green;
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  #mainHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #mainNav {
+    position:sticky;  /*To keep the navigation remain same even when scrolled down */
+    top: 0; 
+}
+
+#mainNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    flex-flow: row wrap;
+    overflow: hidden;
+}
+
+#mainNav a {
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    min-height: 40px;
+    line-height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;     
+    padding: 4px;
+}
+
+#mainNav li {
+   flex-grow: 1; 
+   width: min-content;
+   border: rgb(17,17,17) solid 2px;
+   padding: 0.1px;  
+}
+
+#mainNav li a.active {
+    background-color: #359b38;      /*To show the active webpage */
+  }
+  
+#mainNav li a:hover:not(.active) {
+    background-color: rgb(71, 71, 71); 
+  }
+  h2 {
+    color: #111;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Helvertica;
+    text-align: center;
+
+  }
+
+  *
+{
+	padding:0;
+	margin: 0;
+}
+
+header{
+    margin-bottom:2em;
+}
+
+footer {
+    margin-top:2em;
+}
+
+
+.box {
+    /* width:calc(25% - 2.2em); */
+    widows: 20%;
+	  border:solid #e0fffc .1em;
+    margin: 1em;
+    background-color:rgb(241, 213, 241);
+    font-size: 1em;
+ }
+
+#boxContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color:#6200ee;
+    padding: 0;
+    margin: 0;  
+}
+
+#first{
+    order: 3;
+}
+
+#second{
+    order: 6;
+}
+
+h4 {
+  color: #111;
+  font-size: 25px;
+  font-family: Cambria;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  font-family: arial, sans-serif;
+  justify-content: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: yellowgreen;
+}
+
+.footer {
+  position: bottom;
+  font-size: 16px;
+  left: 0;
+  bottom: o;
+  height: 210px;
+  width: 100%;
+  background-color:rgb(65, 62, 62);
+  color: white;
+  text-align: left;
+}
+
+
+  
